@@ -26,16 +26,16 @@ docker run -d --name jenkins-ci-lab --restart unless-stopped -p 127.0.0.1:8080:8
 6. Open the Jenkins dashboard.
 
 ## Verification
-- [ ] Jenkins container is running.
-- [ ] Browser setup completed.
-- [ ] Jenkins dashboard is accessible.
+- [x] Jenkins container is running.
+- [x] Browser setup completed.
+- [x] Jenkins dashboard is accessible.
 
 ## Evidence
 - [Container status](evidence/jenkins-container.txt)
 - [Configuration](evidence/jenkins-configuration.txt)
 - [HTTP response](evidence/jenkins-http-response.txt)
 
-![Jenkins dashboard](evidence/jenkins-dashboard.png)
+![Jenkins dashboard](evidence/Screenshot%202026-10-18%20193432.png)
 
 ## Learning
 Continuous Integration uses frequent code integration and automated
@@ -51,3 +51,4 @@ docker start jenkins-ci-lab
 ```
 
 This instance is separate from Exercise 6. Stopping it retains its data.
+
